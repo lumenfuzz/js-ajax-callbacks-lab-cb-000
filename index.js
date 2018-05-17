@@ -16,7 +16,7 @@ function displayError() {
 function showRepositories(event, data) {
   var repos = JSON.parse(this.responseText)
   console.log(repos)
-  document.getElementById("repositories").innerHTML = null
+  document.getElementById("repositories").innerHTML = 0
 }
 
 function searchRepositories() {
