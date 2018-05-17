@@ -2,11 +2,11 @@ $(document).ready(function (){
 });
 
 function displayError() {
-  document.getElementsById("error").innerHTML += "I'm sorry, there's been an error. Please try again."
+  document.getElementById("error").innerHTML += "I'm sorry, there's been an error. Please try again."
 }
 
 function searchRepositories() {
-  var query = document.getElementsById("searchTerms").value
+  var query = document.getElementById("searchTerms").value
 }
 
 function showCommits() {
