@@ -6,7 +6,7 @@ function displayError() {
 }
 
 function searchRepositories() {
-  document.getElementsById("searchTerms").value
+  var query = document.getElementsById("searchTerms").value
 }
 
 function showCommits() {
