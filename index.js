@@ -23,7 +23,7 @@ function searchRepositories() {
   var query = document.getElementById("searchTerms").value
   const req = new XMLHttpRequest()
   req.addEventListener("load", showRepositories);
-  req.open("GET", `https://api.github.com/search/repositories/?q=${query}`)
+  req.open("GET", `https://api.github.com/search/repositories/?q=${query}/`)
   req.send()
 }
 
